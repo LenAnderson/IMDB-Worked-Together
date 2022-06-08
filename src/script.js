@@ -11,7 +11,6 @@
 // ==/UserScript==
 
 import { App } from "./App.js";
-import Actor from "./domain/Actor.js";
 
 (function() {
     'use strict';
