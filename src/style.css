@@ -1,0 +1,49 @@
+.imdb-wt--panel {
+  position: fixed;
+  top: 2px;
+  left: 2px;
+  width: 300px;
+  height: 66vh;
+  z-index: 1000;
+  background-color: #1f1f1f;
+  border: 4px solid #f5c518;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  overflow: auto;
+}
+.imdb-wt--panel.imdb-wt--loading:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.imdb-wt--panel > .imdb-wt--title {
+  color: rgba(247, 247, 247, 0.87);
+  font-weight: bold;
+  text-align: center;
+}
+.imdb-wt--panel > .imdb-wt--subtitle {
+  color: rgba(247, 247, 247, 0.87);
+  text-align: center;
+}
+.imdb-wt--panel .imdb-wt--movie > a {
+  background-color: rgba(247, 247, 247, 0.12);
+  border: 1px solid rgba(247, 247, 247, 0.24);
+  border-radius: 4px;
+  display: block;
+  margin: 0.5em;
+  padding: 0.25em;
+  text-decoration: none;
+}
+.imdb-wt--panel .imdb-wt--movie > a > .imdb-wt--movieTitle {
+  color: white;
+  font-size: 0.9em;
+}
+.imdb-wt--panel .imdb-wt--movie > a > .imdb-wt--creditList {
+  color: rgba(247, 247, 247, 0.75);
+  font-size: 0.8em;
+  padding-left: 0.5em;
+}
